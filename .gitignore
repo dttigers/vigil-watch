@@ -60,3 +60,14 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# vigil-watch — secret hygiene (D-04: public repo, MIT)
+# Never commit credentials, configuration with bearer tokens, or local verification logs containing user content.
+.env
+.env.*
+*.vk
+vk_*
+watch.toml
+/config/watch.toml
+/verification-log/
+.DS_Store
